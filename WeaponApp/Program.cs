@@ -133,10 +133,19 @@ while (true)
                     }
             }
             break;
+        case "4":
+            myWeapon.PullTrigger();
+            myWeapon1.PullTrigger();
+            myWeapon2.PullTrigger();
+            myWeapon3.PullTrigger();
+            break;
 
-        
+
+
+
         case "3":
             return;
+
         default:
             Console.WriteLine("Invalid option. Please try again.");
             break;
