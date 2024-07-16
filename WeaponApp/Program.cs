@@ -16,6 +16,7 @@ while (true)
     Console.WriteLine("2. Fire weapon");
    
     Console.WriteLine("3. Exit");
+    Console.WriteLine("4. triggedgit ");
 
     string input = Console.ReadLine();
 
